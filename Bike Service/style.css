@@ -1,0 +1,275 @@
+html{
+       /* background-color: #FC5E55 ; */
+    /* background-image: linear-gradient(to  right, #FC5E55 , #FA4083); */
+    background-image: linear-gradient(#FC5E55 ,#FA4083);
+    /* background-repeat: no-repeat; */
+
+}
+body{
+ 
+    
+    background-image: url(images/image-lion-background.png);
+    background-position:top  center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+}
+
+
+h1{
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 3rem;
+    /* text-shadow: 0px 2px 2px rgb(0, 0, 0,0.9); */
+    text-shadow: 0px 2px 2px rgb(0, 0, 0,0.28);
+}
+
+
+.container{
+
+    width: 1024px;
+    min-height: 300px;
+    /* background-color: lightgreen; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    min-height: 100px;
+    /* background-color: lightgrey; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-bottom: 2px solid lightgray;
+}
+nav > a{
+    text-decoration: none;
+    
+
+}
+
+
+.navbutton{
+    background-color:transparent;
+    border: 1px solid white;
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+   
+    /* position: relative; 
+    or 
+    
+.dropdown-box .navbutton{
+    display: block;
+}*/
+
+    
+}
+
+
+.navbutton a{
+    color: white;
+    text-decoration:none ;
+}
+
+.dropdown-box{
+    display: none;
+    position: absolute;
+    padding-top: 20px;
+    margin-left: -30px;
+    
+}
+
+.navbutton:hover .dropdown-box{
+    color: yellow;
+    display: block;
+    
+}
+
+
+
+.dropdown-box .navbutton{
+    background-color: transparent;
+    
+    
+   
+}
+
+.dropdown-box .navbutton a{
+    color: white;
+}
+
+.dropdown-box .navbutton:hover{
+    background-color: pink;
+    transition-duration: 500ms;
+   
+}
+main{
+    min-height: 300px;
+    /* background-color: teal; */
+    display: flex;
+    align-items:center;
+    
+}
+
+
+.content1{
+    /* background-color: springgreen; */
+    flex: 2;
+    
+
+}
+
+.content1 h1{
+    margin-bottom: 0px;
+}
+
+.content2{
+/* background-color: tomato; */
+flex: 1;
+}
+
+.cards{
+    min-height: 300px;
+    /* background-color: maroon; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.cards a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.card1{
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    /* background-position: bottom; */
+    width: 30%;
+    min-height: 300px;
+    /* background-color: blue */
+    box-shadow: 5px 5px 10px rgb(0, 0,0,0.28);
+}
+
+.card2{
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    width: 30%;
+    min-height: 300px;
+    /* background-color: orange; */
+    box-shadow: 5px 5px 10px rgb(0, 0,0,0.28);
+}
+.card3{
+    background-image: url(images/image-background-card3.jpg);
+
+    background-size: cover;
+    width: 30%;
+    min-height: 300px;
+    /* background-color: skyblue; */
+
+    box-shadow: 5px 5px 10px rgb(0, 0,0,0.28);
+}
+
+.card1, .card2 ,.card3{
+    box-sizing: border-box;
+    padding: 30px 30px 20px 30px;
+}
+
+
+p{
+    line-height: 1.75rem;
+    
+}
+
+.cards p{
+    font-size: 0.85rem;
+}
+
+ .cards i{
+    font-size: 5rem;
+    margin-top: 1.5rem;
+
+}
+
+.mybtn{
+    background-color: #fff;
+    color: #FA4083;
+    text-decoration: none;
+    padding: 11px 25px;
+    margin-top: 10px;
+    border-radius: 0px  100px 100px 0px;
+    box-shadow: 0px 2px 2px rgb(0, 0, 0,0.28);
+    /* display: inline-block; */
+}
+
+.mybtn:hover{
+    background-color: violet;
+    color: yellow;
+    transition-duration: 1s;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox{
+    
+    border: 1px solid white;
+    text-align: center;
+    width: 47%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+/* .test1 p{
+    
+    color: white;
+    width: 70%;
+    margin: auto;
+} */
+
+.inputwrapper{
+    /*
+    to center everything
+    text-align: center; */
+    margin-bottom: 20px;
+}
+
+
+input[type=text],input[type=email],textarea{
+    padding: 12px 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 0.85rem;
+    /* width: 40%; */
+    width: 100%;
+    box-sizing: border-box;
+}
+.newline{
+    display: block;
+    margin-bottom: 10px;   
+}
+
+.margin-right-a{
+    margin-right: 20px;
+}
+
+input[type=radio]{
+    margin-right: 10px;
+}
+
+form{
+    margin: 40px 0px;
+}
