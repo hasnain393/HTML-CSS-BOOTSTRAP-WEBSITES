@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="icon" href="HS.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento"
+    />
+    <style>
+      h1{
+        font-family: "Sacramento",cursive;
+       
+        font-size: 4.125rem;
+      }
+    </style>
+
+  </head>
+  <body>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <header>
+    
+                                                      <!-- Nav Bar -->
+    <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">Hasnain Shaikh</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a  class="nav-link  font-weight-bold " href="#profile">About Us</a>
+          </li>
+          <li class="nav-item font-weight-bold">
+              <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item font-weight-bold">
+              <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+      </ul>
+   </div>
+  </nav>
+</header>
+                                                                   <!-- Title -->
+    <section>
+ <div class="row">
+          <div class="col-lg-12 col-sm-12 col-12" style="background-color: #E4f9f5; ">
+            
+            <img class="mx-auto d-block" src="images/cloud.png" alt="cloud-img" />
+        <h1  class="text-center">I'm Hasnain.</h1>
+        <p class="text-center" >a web developer.</p>
+        <img  class="m-5" src="images/cloud.png" alt="cloud-img" />
+        <img  style="width: 35%;" class=" textcol-lg-6 col-sm-6 col-12 mx-auto d-block  "src="images/mountain.png" alt="mountain-img" />
+    
+      </div>
+      </div>
+    </section>
+                                                    <!-- profile section -->
+    <section id="profile">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 col-12 text-center pt-5">
+          <a
+          href="https://media-exp1.licdn.com/dms/image/C5103AQHeKITtqrgn-g/profile-displayphoto-shrink_200_200/0?e=1596672000&v=beta&t=rizq5EvusLprage0IKZizSU_tlorL3QtCFRSgA0jUCc"
+          target="_blank"
+        >
+          <img  src="images/hasnaincircle-crop.png" alt="no image found" />
+        </a>
+          <h2>Hello.</h2>
+          <p class="intro">
+            I am a Java and Web Developer.I ❤️ love coffee and brew my own beer.
+          </p>
+        </div>
+        </div>
+      </div>
+    </section>
+        <hr />
+                                                      <!-- skills section -->
+        <section id="skills">
+          <div class="container-fluid">
+            <h2 class="text-center ">Skills</h2>
+            <div class="row pt-2">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12 mb-5">
+                <img  class="img-fluid  w-30 float-right  pr-5" src="images/development1.png" alt="">
+
+              </div>
+
+              <div class="col-lg-6 col-md-6  col-sm-6 col-12  float-left pl-5 pb-5">
+                <h2>Design & Development</h2>
+                <p class="w-75 text-center">I started learning to code in my Second year.Over time, I have gained a wealth of experience designing and developing web applications.</p>
+
+              </div >
+              <div class="row  ">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                  <img  class="img-fluid  w-30 float-right  pr-5" src="images/userheadphonemask.png" alt="">
+  
+                </div>
+  
+                <div class="col-lg-6 col-md-6  col-sm-6 col-12 float-left pl-5 ">
+                  <h2>Developer at L&T InfoTech</h2>
+                  <p class="w-75 text-center"> Possess an expertise knowledge in web application development using a broad range of programming technologies such as Java, Spring Web, Spring Boot, JavaScript, HTML, CSS, Rect/Angular. Quite a good experience with working on ORM tools like Hibernate, Mongodb, SQL/PLSQL and Oracle. Familiarity with Gradle/Maven. Pursuing knowledge in Micro Services Architecture and RESTFUL service. So far accomplished the exposure and consumption of services.</p>
+  
+                </div>
+
+            </div>
+          </div>
+        </section>
+        
+
+  
+        <hr />
+
+                                   <!-- contact section -->
+        <section id="contact">
+        <div class="row">
+        <div class="col-lg-12 col-sm-12 contact-me text-center">
+          <h2>Get In Touch</h2>
+          <h3>Just Ask <br>Get Answers</h3>
+          <p>
+            Your questions and comments are important to us.Reach us by phone or email. <br>
+            We have got everything  covered for your needs.
+          </p>
+          <a class="btn" href="mailto:hasnains312@gmail.com" target="_blank"><h5>CONTACT ME</h5></a>
+        </div><br>
+      </div>
+        </section>
+
+                                                        <!-- form section -->
+  <section>
+    <div class="container">
+      
+      <div class="w-50 mx-auto pb-3 pt-2">
+        <form class="text-center" action="mailto:hasnains312@gmail.com" method="GET">
+          <div class="form-group">
+            <label for="exampleName">Your Name</label>
+            <input type="text" class="form-control" id="exampleName" name="name"  
+            placeholder="Enter your name">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleEmail">Email:</label>
+            <input type="email" class="form-control" id="exampleEmail"  name="email" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleMobile">Mobile No:</label>
+            <input type="number" class="form-control" id="exampleMobile"  name="phone" placeholder="Enter mobile no">
+          </div>
+          <div class="form-group">
+            <label for="exampleMessage">Message:</label>
+            <textarea class="form-control" id="exampleMessage" name="message" placeholder="Suggestions/Queries/Comments"></textarea>
+          </div>
+
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+            <label class="form-check-label" for="exampleCheck1">Remember me </label>
+          </div>
+          <button type="submit"  class="btn btn-primary">Submit</button>
+        
+        </form>
+        
+      </div>
+ 
+    </div>
+
+  </section>
+                                    <!-- footer section -->
+        <section>
+
+      <div class="col-lg-12 col-sm-12 bottom-container text-center pt-3" style="background-color: #66bfbf;">
+        <a class="footer-link " href="https://www.facebook.com" target="_blank">
+          <img class="profile" src="images/facebook32.png" alt="no image found" />
+        </a>
+        <a class="footer-link" href="https://www.linkedin.com/in/hasnainshaikh312/" target="_blank">
+          <img class="profile" src="images/linkedin32.png" alt="no image found" />
+        </a>
+        <a class="footer-link" href="https://www.instagram.com/godelementrix/?r=nametag" target="_blank">
+          <img
+            class="profile"
+            src="images/instagram-sketched32.png"
+            alt="no image found"
+          />
+        </a>
+        <a class="footer-link" href="mailto:hasnains312@gmail.com" target="_blank">
+          <img class="profile" src="images/email.png" alt="no image found" />
+        </a>
+  
+        <p class="copyright pt-2 ">© 2020 Hasnain Shaikh.@ hasnain393/GitHub.</a> </p>
+      </div>
+   
+    </section>
+    </body>
+ 
+  
+
+</html>
