@@ -1,0 +1,66 @@
+body{
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-image: linear-gradient(to bottom right,#00F490,   #00BBC9);
+}
+
+
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.jumbotron{
+    background-color: rgba(0, 128, 0, 0);
+}
+
+.drop-shadow{
+    text-shadow:0px 2px 2px rgb(0,0,0,153);
+}
+
+.lead{
+    color: white;
+    font-size: 2.2rem;
+}
+
+/* .btn-outline-light{
+    border-color: white;
+} */
+
+
+.btn-outline-light:hover{
+background-color: rgb(255,255,255,0.1);
+}
+
+/* .bg-light{
+    background-color: rgba(255, 255, 255, 0)!important;
+} */
+
+
+.mybtn{
+    background-color: #00BBC9;
+    border-color: #00BBC9;
+}
+.my-bg{
+    background-color: white;
+    
+}
+
+section h1{
+    color:#4cf6b0 ;
+}
+/* mobile view */
+@media (max-width:800px){
+    .my-bg{
+        background-color: darkslategray;
+        
+    }
+    section p{
+        color: white;
+    }
+    section h1{
+        color:#4cf6b0 ;
+    }
+
+}

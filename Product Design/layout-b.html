@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,shrink-to-fit=no"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <style>
+      .mybox1 {
+        background-color: hotpink;
+        min-height: 200px;
+        margin: 20px 10px;
+        padding: 20px;
+      }
+
+      .mybox2 {
+        background-color: springgreen;
+        min-height: 200px;
+        margin: 20px 10px;
+        padding: 20px;
+      }
+
+      .mybg1{
+          background-color: darkslategray;
+      }
+    </style>
+  </head>
+
+  <body>
+
+
+
+    <div class="container-fluid mybg1">
+        <div class="container">
+            <div class="row">
+                <!-- if we give one col a size then the rest col automatically takes the value -->
+                <div class="col-4">
+                    <div class="mybox1">nav</div>
+                </div>
+                
+                <div class="col">
+                    <div class="mybox1">nav</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="mybox1">
+                    <!-- margin 5 on xs-extra  small and sm-small device,
+                    margin 0 on medium device and negative margin on large device -->
+                    <!-- <p class="m-5 m-md-0 m-lg-n5">Lorem ipsum dolor sit amet.</p> -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae iusto voluptatem aut a doloremque ipsam magnam et, placeat deserunt reiciendis illum, dolore asperiores. Nesciunt ex autem ducimus ratione, facere accusamus. Excepturi, veniam. Optio veniam delectus unde consequatur itaque nemo magnam enim at similique? Cupiditate numquam nihil aperiam molestias qui eveniet voluptate eius, deserunt recusandae ad culpa rerum obcaecati laborum vitae quos repellendus corrupti natus sequi temporibus vero? Error dolorem nihil facere ducimus autem, provident nobis mollitia perspiciatis. Voluptatum id minus, doloremque vitae sapiente assumenda a dolor saepe magnam debitis neque hic natus autem porro at obcaecati suscipit odit asperiores.</p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mybox2 mx-3">Nest1</div>
+                        </div> 
+                        <div class="col">
+                            <div class="mybox2 mx-3">Nest2</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col">
+                <div class="mybox1">Feature 1</div>
+            </div>
+            <div class="col">
+                <div class="mybox1">Feature 2</div>
+            </div>
+            <div class="col">
+                <div class="mybox1">Feature 3</div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,11 @@
+note1:
+to make image responsive using bootstrap use img-fluid
+by using this class image will use space of it column
+
+
+note2:
+if we wwant to change the col the we use mybox class wrapper in div inside
+col div
+
+note3:
+mx-auto or text-center
