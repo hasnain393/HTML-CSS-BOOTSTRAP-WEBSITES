@@ -1,0 +1,172 @@
+/* global view */
+
+body{
+    margin: 0;
+    color: white;
+    background-color: #ebebeb;
+}
+
+
+.header-container{
+    background-color: rgb(60, 60, 60);
+    min-height: 100px;
+    /* if we give position fixed we have to specify width */
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+header{
+    max-width: 1024px;
+    /* background-color: blueviolet; */
+    min-height: 100px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 25px ;
+    margin-left:20px;
+    border: 1px solid white;
+}
+
+.highlight{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.container{
+    /* background-color: darkcyan; */
+    min-height: 500px;
+    /* width: 1355px;1355px->total widtth */
+    /* width: 75%; */
+    max-width: 1024px;
+    margin: 150px auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding-top: 150px; */
+   
+}
+
+.hide-desktop-only{
+    display: none;
+}
+.col{
+    /* background-color: pink;
+    min-height: 200px; */
+    background-color: darkcyan;
+    width: 30%;
+    margin-bottom: 40px;
+
+}
+/* 
+1rem =16px aprox
+to covert 16px into rem  { 16px*0.0625=1rem}
+to convert 14px into rem {14px*0.0625=0.875rem}  */
+
+.col p{
+    color: white;
+    font-size: 0.875rem;
+    padding: 20px 25px;
+
+
+}
+
+
+.col img{
+    width: 100%;
+    height: auto
+}
+
+
+.col p::first-line{
+    font-weight: bold;
+  
+}
+
+/* tablet view */
+@media (max-width:786px){
+
+   .col{
+       width: 45%;
+   }
+
+    
+.header-container{
+    
+    /* if we give position fixed we have to specify width */
+    position: relative;
+    
+
+}
+    header{
+        display: block;
+        text-align: center;
+    }
+    
+.container{
+    
+    margin: 40px;
+   
+}
+    nav a{
+        margin-left: 0;
+        display: block;
+    }
+
+    .logo{
+        padding: 40px 0;
+    }
+
+
+}
+
+/* mobile view */
+@media (max-width:400px){
+    
+    .col{
+        width: 100%;
+    }
+
+   
+    .hide-mobile{
+        display: none;
+    }
+    
+.header-container{
+    
+    /* if we give position fixed we have to specify width */
+    position: relative;
+    
+
+}
+    header{
+        display: block;
+        text-align: center;
+    }
+    
+.container{
+    
+    padding-top:0px
+   
+}
+    nav a{
+        margin-left: 0;
+        display: block;
+    }
+
+    .logo{
+        padding: 40px 0;
+    }
+
+
+}

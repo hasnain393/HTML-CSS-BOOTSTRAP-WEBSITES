@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+
+.container{
+    background-color: darkcyan;
+    min-height: 500px;
+    /* width: 1355px;1355px->total widtth */
+    /* width: 75%; */
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.col{
+    background-color: pink;
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+
+}
+@media (max-width:786px){
+
+   .col{
+       width: 47%;
+   }
+}
+
+@media (max-width:400px){
+    
+    .col{
+        width: 100%;
+    }
+}

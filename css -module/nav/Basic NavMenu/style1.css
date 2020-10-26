@@ -1,0 +1,53 @@
+body{
+  background-color: pink;
+}
+.first{
+	background-color: black;
+	color: white;
+	
+}
+
+ul li{
+	display: inline-block;
+	padding: 20px 40px 10px ;
+	/* padding is for space between nav menu and drop down */
+	/* padding: 10px; */
+}
+
+
+
+.tt{
+		display: none;
+		margin-top: 10px;
+	
+
+	
+
+}
+ li a{
+	 /* margin:9px; */
+	 display: block;
+   background-color: rgb(0, 128, 128,0.2);
+   
+   /* or
+   background-color: teal; */
+	 color: yellow;
+   padding: 10px;
+   border: 1px solid white;
+   
+	 
+ }
+
+ li a:hover{
+   background-color: green;
+ }
+.man:hover  .tt{
+
+	display: block;
+	
+}
+
+.tt{
+	position: absolute;
+	
+}

@@ -1,0 +1,101 @@
+h1{
+    color: yellow;
+}
+
+
+@media (max-width:786px){
+
+    h1{
+        color: red;
+    }
+}
+
+@media (max-width:400px){
+    h1{
+        color :black
+    }
+}
+
+.container{
+width: 1024px;
+min-height: 500px;
+background-color: blue;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.card1{
+    width:200px;
+    height: 200px;
+    background-color: brown;
+
+}
+.card2{
+    width:200px;
+    height: 200px;
+    background-color: rgb(15, 228, 61);
+
+}
+.card3{
+    width:200px;
+    height: 200px;
+    background-color: yellow;
+
+}
+.card4{
+    width:200px;
+    height: 200px;
+    background-color: grey;
+
+}
+.card5{
+    width:200px;
+    height: 200px;
+    background-color: black;
+
+}
+.card6{
+    width:200px;
+    height: 200px;
+    background-color: orange;
+
+}
+.card7{
+    width:200px;
+    height: 200px;
+    background-color: cadetblue;
+
+}
+
+.card8{
+    width:200px;
+    height: 200px;
+    background-color:chartreuse;
+
+}
+.card9{
+    width:200px;
+    height: 200px;
+    background-color: darkblue;
+
+}
+
+
+@media (max-width:786px){
+    .card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width:400px){
+    .card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9{
+        width: 800px;
+        height: 500px;
+
+    }
+}
