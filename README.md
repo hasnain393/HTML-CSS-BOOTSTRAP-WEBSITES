@@ -1,6 +1,7 @@
 # HTML-CSS-BOOTSTRAP-WEBSITES
-* Starter template  for Bootstrap 4.3
+* d-flex justify-content-end | mr-auto | ml-auto | text-center text-md-left  are useful property in botstrap
 * [Bootstrap 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* Starter template  for Bootstrap 4.3
 ```
 <!doctype html>
 <html lang="en">
